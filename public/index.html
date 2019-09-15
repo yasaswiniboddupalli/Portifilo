@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<title>Yash Portifilio</title>
+<head>
+    <meta name="google-site-verification" content="dPyPtwW8c3HVuohE9368Eejzp7MKDyFAm3FikERyKrk" /> 
+    <meta name="msvalidate.01" content="79ABDBFA9996311720A967434AF7387D" /> 
+<title>Yash Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -10,24 +13,28 @@
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </style>
+</head>
 <body class="w3-light-grey">
   <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-text-blue w3-hover-none">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none">ABOUT</a>
-    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none">PROJECTS</a>
-    <a href="resume.pdf"  target="_self" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none">RESUME</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-text-blue w3-hover-none w3-mobile">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">ABOUT</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">PROJECTS</a>
+    <a href="resume.pdf"  target="_self" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">RESUME</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">CONTACT</a>
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
-  <a href="#projects" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-mobile" onclick="myFunction()">ABOUT</a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-mobile" onclick="myFunction()">PROJECTS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-mobile" onclick="myFunction()">CONTACT</a>
 </div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
 
   <div class = "grad">
   <div>
@@ -39,17 +46,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div>
     <div>
     <h1 style="color:white;"> YASHASWINI BODDUPALLI</h1>
-    <h3> User-Interface designer and front-end developer</h3>
+    <h3> UI designer & Front-end developer</h3>
     <div>
   </center>
   </div>
-  <br>
-  <br>
-  <br>
   <!--About---->
   <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;"  id="about">
-  <br>
   <br>
   <br>
  <h2 class="w3-wide">ABOUT</h2>
@@ -67,7 +70,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
           </div>
         </div>
         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i> UI designer, fornt-end developer</p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i> UI designer, Front-end developer</p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue"></i>Dublin, Ireland</p>
 
           <hr>
@@ -156,12 +159,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
   <!-- End Page Container -->
 </div>
-<br>
-<br>
-<br>
 <!---Projects---->
 <div class="grad1" id="projects">
-  <br>
   <br>
   <br>
   <h2 class="w3-wide text">PROJECTS</h2>
@@ -260,10 +259,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <br>
    <h2 class="w3-wide">CONTACT</h2>
   <center>
-  <div class="w3-panel w3-card-4 contact">
-  <h2><i class="fa fa-envelope fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>yasaswini1205@gmail.com</h2>
-  <hr>
-
+  <div class="w3-panel w3-card-4 contact w3-container">
+  <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue w3-mobile" style="font-weight: bold"></i>yasaswini1205@gmail.com</p>
     <a href="https://infiniteimpressionblog.wordpress.com/" target="_blank"><i class="fa fa-wordpress w3-xlarge w3-text-blue" ></i></a>
     <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin w3-xlarge w3-text-blue" ></i></a>
     <a href="https://twitter.com/home?lang=en" target="_blank"><i class="fa fa-twitter w3-xlarge w3-text-blue" ></i></a>
@@ -275,7 +272,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <br>
 <br>
 <br>
-
+<!-- End Page Content -->
+</div>
 <!--footer-->
 <div class="footer">
   <br>
@@ -293,5 +291,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js"></script>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
 </body>
 </html>
