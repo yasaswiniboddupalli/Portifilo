@@ -45,13 +45,12 @@ h1,h3,h4,h6{
   margin-bottom: 15px;
 }
 .grad1{
-height:2000px;
-background: rgb(3,44,54);
-background: linear-gradient(180deg, rgba(3,44,54,1) 0%, rgba(3,3,3,1) 15%, rgba(50,49,49,1) 31%, rgba(33,146,222,1) 52%, rgba(3,3,3,1) 81%, rgba(128,128,128,1) 100%);
+/*height:2000px;*/
+background: white;
+/*background: linear-gradient(180deg, rgba(3,44,54,1) 0%, rgba(3,3,3,1) 15%, rgba(50,49,49,1) 31%, rgba(33,146,222,1) 52%, rgba(3,3,3,1) 81%, rgba(128,128,128,1) 100%);
+*/
 }
-.contact{
-  width:25%;
-}
+
 .footer {
 
    left: 0;

@@ -4,6 +4,9 @@
     <meta name="google-site-verification" content="dPyPtwW8c3HVuohE9368Eejzp7MKDyFAm3FikERyKrk" /> 
     <meta name="msvalidate.01" content="79ABDBFA9996311720A967434AF7387D" /> 
 <title>Yash Portfolio</title>
+<link rel = "icon" type = "image/png" href = "images/icon.png">
+    <!-- For apple devices -->
+    <link rel = "apple-touch-icon" type = "images/png" href = "images/icon.png"/>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -18,11 +21,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-text-blue w3-hover-none w3-mobile">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">ABOUT</a>
     <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">PROJECTS</a>
     <a href="resume.pdf"  target="_self" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">RESUME</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">CONTACT</a>
+  
   </div>
 </div>
 
@@ -52,9 +57,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   </div>
   <!--About---->
   <!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;"  id="about">
-  <br>
-  <br>
+<div class="w3-content w3-margin-top w3-padding-64" style="max-width:1400px;"  id="about">
  <h2 class="w3-wide">ABOUT</h2>
   <!-- The Grid -->
   <div class="w3-row-padding">
@@ -142,15 +145,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:70%">70%</div>
           </div>
-
-
-
-
-
-
-          <br>
       </div>
-
+<br>
     <!-- End Right Column -->
     </div>
 
@@ -159,119 +155,125 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
   <!-- End Page Container -->
 </div>
+<br>
+<br>
+
 <!---Projects---->
-<div class="grad1" id="projects">
-  <br>
-  <br>
-  <h2 class="w3-wide text">PROJECTS</h2>
-  <br>
-  <div class="w3-row-padding w3-grayscale" style="margin-bottom:128px">
-  <div class="w3-half">
-
-    <div class="w3-panel card "><center><h3>DELIVERY TRUCK</h3>
-    <img src="images/dt.png" style="width:80%" class="image">
-    <p class="text">A simple educational game which teaches the concept of the Hamiltonian path from graph theory.</p>
-    <pre class="text">
-      ROLE : Python developer
-      TIMEFRAME : 1 month (July 2019)
-      TECHNOLOGIES : Python3, PostgreSQL, Brython, InkScape
-    </pre>
-     <button class="w3-button w3-large w3-blue"><a href="https://gitlab.cs.nuim.ie/ctgames/ctgames" target="_blank" class ="text" style="text-decoration:none;">View full source code</a></button>
-    </center>
+  <div class="w3-black w3-padding-64" id="projects">
+  <h2 class="w3-wide text ">PROJECTS</h2>
+  <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <img src="images/dt.png" alt="Delivery Truck" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+         <center><p><b>Delivery Truck</b></p></center> 
+          <p class="w3-opacity">
+              Educational game that teaches "Hamilton path" concept
+          </p>
+          <center>
+          <p>Role :UI designer<br>
+            Timeframe : 1 month (July 2019) <br>
+            Technologies : Python3, InkScape</p>
+          <button class="w3-button w3-blue w3-margin-bottom"><a href="https://gitlab.cs.nuim.ie/ctgames/ctgames" target="_blank" class ="text" style="text-decoration:none;">View full source code</a></button>
+        </center>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="images/rc.png" alt="Roller Coaster" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <center><p><b>Roller Coaster</b></p></center> 
+            <p class="w3-opacity">
+                Educational game that teaches the "Queues" concept
+            </p>
+            <center>
+            <p>Role :UI designer<br>
+              Timeframe : 1 month (Feburary 2019) <br>
+              Technologies : Python3, InkScape</p>
+            <button class="w3-button w3-blue w3-margin-bottom"><a href="https://gitlab.cs.nuim.ie/ctgames/ctgames" target="_blank"  class ="text" style="text-decoration:none;">View full source code</a></button>
+          </center>  
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="images/mh.png" alt="Median Height" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <center><p><b>Median Height</b></p></center> 
+            <p class="w3-opacity">
+                Educational game that teaches  the "Sorting" concept
+            </p>
+            <center>
+            <p>Role :UI designer<br>
+              Timeframe : 1 month (December 2018) <br>
+              Technologies : Python3, InkScape</p>
+            <button class="w3-button w3-blue w3-margin-bottom"><a href="https://gitlab.cs.nuim.ie/ctgames/ctgames" target="_blank"  class ="text" style="text-decoration:none;">View full source code</a></button>
+          </center>  
+        </div>
+      </div>
     </div>
-
-    <div class="w3-panel card"><center><h3>MEDIAN HEIGHT</h3>
-    <img src="images/mh.png" style="width:80%;" class="image">
-    <p class="text">A simple educational game which teaches the concept of sorting.</p>
-    <pre class="text">
-      ROLE : Python developer
-      TIMEFRAME : 1 month (December 2018)
-      TECHNOLOGIES : Python3, PostgreSQL, Brython, InkScape
-    </pre>
-     <button class="w3-button w3-large w3-blue"><a href="https://gitlab.cs.nuim.ie/ctgames/ctgames" target="_blank"  class ="text" style="text-decoration:none;">View full source code</a></button>
-    </center>
-    </div>
-
-    <div class="w3-panel card"><center><h3>BIBILOGRAPHY MANAGER</h3>
-    <img src="images/bm.png" style="width:80%" class="image">
-    <p class="text">A website which supports researchers in collecting and organizing literature.</p>
-    <pre class="text">
-      ROLE : Information architect, front-end developer
-      TIMEFRAME : 2 months (Feburary 2019 - March 2019)
-      TECHNOLOGIES : HTML, W3-CSS, JQuery, PHP
-    </pre>
-    <br>
-     <button class="w3-button w3-large w3-blue"><a href="https://bitbucket.org/masterscs615/18251976/src/master/" target="_blank" class ="text" style="text-decoration:none;">View full source code</a></button>
-    </center>
-    </div>
-
-
-  </div>
-
-  <div class="w3-half">
-
-    <div class="w3-panel card"><center><h3>ROLLER COASTER</h3>
-    <img src="images/rc.png" style="width:80%" class="image">
-    <p class="text">A simple educational game that teaches the concept of the queues.</p>
-    <pre class="text">
-      ROLE : Python developer
-      TIMEFRAME : 1 month (Feburary 2019)
-      TECHNOLOGIES : Python3, PostgreSQL, Brython, InkScape
-    </pre>
-    <br>
-     <button class="w3-button w3-large w3-blue"><a href="https://gitlab.cs.nuim.ie/ctgames/ctgames" target="_blank"  class ="text" style="text-decoration:none;">View full source code</a></button>
-    </center>
-
-   </div>
-
-    <div class="w3-panel card"><center><h3>INTELLIGENT HEALTH MONITORING SYSTEM</h3>
-    <img src="images/ihms.png" style="width:80%" class="image">
-    <p class="text">It provides BMI, BMR etc results online with data visualization. It also has a feature to track calorie intake.</p>
-    <pre class="text">
-      ROLE : Full stack developer
-      TIMEFRAME : 5 months (December 2016 - April 2017)
-      TECHNOLOGIES : HTML, CSS, JavaScript, PHP, XAMPP
-    </pre>
-    <br>
-     <button class="w3-button w3-large w3-blue"><a href="https://github.com/yasaswiniboddupalli/IHMS" target="_blank" class ="text" style="text-decoration:none;">View full source code</a></button>
-    </center>
-    </div>
-
-    <div class="w3-panel card"><center><h3>COLLABORATIVE ANNOTATION</h3>
-    <img src="images/CA.png" style="width:80%" class="image">
-    <p class="text">A simple website that engages students in critical thinking, reading, writing and collaboration in one activity.</p>
-    <pre class="text">
-      ROLE : UI designer
-      TIMEFRAME : 2 days (April 2019)
-      TECHNOLOGIES : AdobeXD
-    </pre>
-     <button class="w3-button w3-large w3-blue"><a href="https://github.com/yasaswiniboddupalli/Collaborative-Annotation" target="_blank" class ="text" style="text-decoration:none;">View full design</a></button>
-    </center>
-    </div>
-
-  </div>
-  </div>
-
+    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/CA.png" alt="Collaborative-Annotation" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+           <center><p><b>Collaborative Annotation</b></p></center> 
+            <p class="w3-opacity">
+                Engages students in critical thinking, reading and writing.
+            </p>
+            <center>
+            <p>Role :UI designer<br>
+              Timeframe : 2 days (April 2019) <br>
+              Technologies : AdobeXD</p>
+            <button class="w3-button w3-blue w3-margin-bottom"><a href="https://github.com/yasaswiniboddupalli/Collaborative-Annotation" target="_blank" class ="text" style="text-decoration:none;">View full design</a></button>
+          </center>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/ihms.png" alt="INTELLIGENT HEALTH MONITORING SYSTEM" style="width:100%; height:75%;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+              <center><p><b>Intelligent Health Monitoring System</b></p></center> 
+              <p class="w3-opacity">
+                  Health website to calculate BMI, BMR..etc
+              </p>
+              <center>
+              <p>Role : Full stack developer<br>
+                Timeframe : 5 months (December 2016 - April 2019) <br>
+                Technologies : HTML, CSS, JavaScript, PHP, XAMPP</p>
+              <button class="w3-button w3-blue w3-margin-bottom"><a href="https://github.com/yasaswiniboddupalli/IHMS" target="_blank" class ="text" style="text-decoration:none;">View full source code</a></button>
+            </center>  
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/bm.png" alt="BIBILOGRAPHY MANAGER" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+              <center><p><b>Bibilography Manager</b></p></center> 
+              <p class="w3-opacity">
+                  Helps researchers in collecting and organizing literature.
+              </p>
+              <center>
+              <p>Role :UX & UI designer<br>
+                Timeframe : 2 months (Feburary 2019 - March 2019) <br>
+                Technologies : HTML, W3-CSS, JQuery, PHP</p>
+              <button class="w3-button w3-blue w3-margin-bottom"><a href="https://bitbucket.org/masterscs615/18251976/src/master/" target="_blank" class ="text" style="text-decoration:none;">View full source code</a></button>
+            </center>  
+          </div>
+        </div>
+        </div>
+  
 </div>
 <!--Contact-->
-<div class="w3-container" id="contact">
-  <br>
-  <br>
+<div class="w3-container w3-padding-64" id="contact">
    <h2 class="w3-wide">CONTACT</h2>
-  <center>
-  <div class="w3-panel w3-card-4 contact w3-container">
-  <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue w3-mobile" style="font-weight: bold"></i>yasaswini1205@gmail.com</p>
+   <center>
+  <div class="w3-container w3-white w3-card" style="width:70%;">
+  <h3 style="color:black;">Feel free to drop an email:<br>
+    <i class="fa fa-envelope fa-fw w3-margin-right w3-xlarge w3-text-blue w3-mobile"></i><em>yasaswini1205@gmail.com</em><br></h3>
+    <hr>
+    <h3 style="color:black;">Be in touch<br>
     <a href="https://infiniteimpressionblog.wordpress.com/" target="_blank"><i class="fa fa-wordpress w3-xlarge w3-text-blue" ></i></a>
     <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin w3-xlarge w3-text-blue" ></i></a>
     <a href="https://twitter.com/home?lang=en" target="_blank"><i class="fa fa-twitter w3-xlarge w3-text-blue" ></i></a>
     <a href="https://wordpress.com" target="_blank"><i class="fa fa-facebook w3-xlarge w3-text-blue" ></i></a>
+    </h3>
   </div>
-</center>
+    </center>
 </div>
-<br>
-<br>
-<br>
-<br>
 <!-- End Page Content -->
 </div>
 <!--footer-->
