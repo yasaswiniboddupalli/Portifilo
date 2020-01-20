@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="google-site-verification" content="-fTTHir8-CZajGdPxOSnxIplxA7sb4DgLDINQYO6veQ" />
+    <meta name="google-site-verification" content="dPyPtwW8c3HVuohE9368Eejzp7MKDyFAm3FikERyKrk" />
+    <meta name="msvalidate.01" content="79ABDBFA9996311720A967434AF7387D" />
+<title>Yash Portfolio</title>
+<link rel = "icon" type = "image/png" href = "images/icon.png">
+<!-- For apple devices -->
+<link rel = "apple-touch-icon" type = "images/png" href = "images/icon.png"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
+  <!-- Navbar -->
+  <div class="w3-top">
+  <div class="w3-bar w3-card flex-container">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html#" class="w3-bar-item  nav_text w3-button w3-padding-large w3-hover-text-blue w3-hover-none w3-mobile">HOME</a>
+    <a href="index.html#projects" class="w3-bar-item w3-button nav_text  w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">WORK</a>
+    <a href="Yash_CV.pdf"  target="_self" class="w3-bar-item  nav_text w3-button w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">RESUME</a>
+
+    <a href="index.html#about" class="w3-bar-item w3-button nav_text  w3-padding-large w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">ABOUT</a>
+      <a href="index.html#contact" class="w3-bar-item w3-button w3-padding-large nav_text w3-hide-small w3-hover-text-blue w3-hover-none w3-mobile">CONTACT</a>
+
+  </div>
+  </div>
+
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="index.html#projects" class="w3-bar-item w3-button w3-padding-large w3-mobile" onclick="myFunction()">WORK</a>
+  <a href="Yash_CV.pdf"  target="_blank" class="w3-bar-item w3-button w3-padding-large w3-mobile" onclick="myFunction()">RESUME</a>
+
+  <a href="index.html#about" class="w3-bar-item w3-button w3-padding-large w3-mobile" onclick="myFunction()">ABOUT</a>
+
+  <a href="index.html#contact" class="w3-bar-item w3-button w3-padding-large w3-mobile" onclick="myFunction()">CONTACT</a>
+  </div>
+
+
+<!-- Page content -->
+<div class="w3-content w3-dark-grey w3-mobile" style="max-width:2000px;margin-top:46px">
+
+
+<center>
+<br>
+<!--<img src="images/dt1.png" alt="Delivery truck theme" class="w3-image w3-center" width="400" height="450"><br>
+-->
+
+<h1 style="color:white;">Bibilography Manager</h1>
+<img src="images/bm.png" alt="Bibilography Manager theme" class="w3-image w3-center" width="400" height="450"><br>
+<h4 class="w3-margin w3-padding">Helps researchers in collecting and organizing literature.</h4>
+</center>
+
+<!--About Case study---->
+<!-- Page Container -->
+</div>
+
+<div class="w3-content w3-mobile w3-margin-top w3-padding-64" style="max-width:1400px;">
+ <h2 class="w3-wide" style="text-align:center;">ABOUT BIBILOGRAPHY MANAGER</h2>
+ <p class="w3-large w3-panel w3-padding w3-left w3-margin">
+   Bibliography Manager is a tool specially designed for the researcher for
+   collecting and organizing literature. The application is capable of storing a
+   metadata about the research paper, books, journals and other publications.
+   Researcher can create their own libraries which will contain metadata about
+   different references. Also, researchers can share their libraries with other
+   researcher with specific permissions.
+   <br>
+
+     <ul type="none" class="w3-large w3-panel w3-center">
+      <li><b>Target users: </b>Academic scholars and research professionals<br></li>
+
+     <li> <b>Timeframe:</b>Feburary 2019 - April 2019<br></li>
+   </ul>
+</p>
+</div>
+<div class="w3-content w3-margin-top w3-mobile w3-padding-64" style="max-width:1400px;">
+ <h2 class="w3-wide" style="text-align:center;">CHALLENGES</h2>
+ <ul class="w3-ul w3-panel w3-left w3-large">
+   <li>A visitor to the website must be able to register as a user.
+The email address must be validated before registration is complete.
+ When a user registers two libraries ('Trash' and 'Unfiled') must be created automatically. </li>
+   <li>A user must be able to update their registered details </li>
+   <li>A user must log in to the website to view the references in the active library. </li>
+   <li>A user must be able to logout from the website. </li>
+   <li> A user must be able to create a new library to store their references. </li>
+   <li> A user must be able to change the active library.</li>
+   <li>A user must be able to rename a library 'Trash' and 'Unfiled' must not be able to be renamed. </li>
+   <li> A user must be able to delete a library.
+The system must prompt the user asking where references (stored in the library to be
+deleted) should be moved to.
+ 'Trash' and 'Unfiled' must not be deleted.</li>
+   <li> A user must be able to add references to a library. </li>
+   <li> A user must be able to update all fields for a reference in a library.</li>
+   <li> . A user must be able to delete both a single reference and a group of references
+ A deleted reference must be moved to 'Trash' </li>
+   <li>A user must be able to move one or more references at a time from one library to another. </li>
+   <li>A user must be able to empty their 'Trash' library. </li>
+   <li> A user that owns a library must be able to share that library with other registered users.
+A user cannot share a library that the user does not own (i.e. has not created).
+ A user cannot share a library that the user owns with a non-registered user.</li>
+   <li>. If a user owns a library then they must be able to see who that library is shared with.
+A user must not be able to see who a library is shared with if they do not own it. </li>
+   <li>The owner of a shared library must be able to unshare it. </li>
+   <li> . The user must be allowed to sort the references in both ascending and descending order by:
+title, author, year and key.</li>
+   <li>A user must be able to search for references that match criteria for: author, title and year.
+The search must allow for one or more libraries to be included in the search. </li>
+   <li> Inputs must be validated on the client and server side.
+Prevent SQL injection attacks etc.</li>
+</ul>
+</div>
+<div class="w3-content w3-mobile w3-margin-top w3-padding-64" style="max-width:1400px;">
+ <h2 class="w3-wide" style="text-align:center;">MY ROLE</h2>
+ <p class="w3-large w3-panel w3-padding w3-left w3-margin">
+My role in this project is UX designer, UI developer and backend developer. In our team, there are three members. Although we rotated the tasks between us, each of us decided to take one key responsibility. I am responsible for UX while the other two are responsible for UI development and back end.
+ </p>
+</div>
+<div class="w3-content w3-mobile w3-margin-top w3-padding-64" style="max-width:1400px;">
+ <h2 class="w3-wide" style="text-align:center;">DESIGN AND DEVELOPMENT KIT</h2>
+ <p class="w3-large w3-panel w3-padding w3-center w3-margin">
+   <label for="html" class="w3-margin w3-padding">
+   <image src="images/html.png" alt="html" id="html">
+     HTML
+  </label>
+  <label for="css" class="w3-margin w3-padding">
+  <image src="images/css.png" alt="css" id="css">
+    CSS
+ </label>
+ <label for="javascript" class="w3-margin w3-padding">
+ <image src="images/javascript.png" alt="javascript" id="javascript">
+   JavaScript
+ </label>
+ <label for="jquery" class="w3-margin w3-padding">
+ <image src="images/jquery.png" alt="jquery" id="jquery">
+   JQuery
+</label>
+<label for="php" class="w3-margin w3-padding">
+<image src="images/php.png" alt="php" id="php">
+  PHP
+</label>
+ </p>
+</div>
+<div class="w3-content w3-mobile w3-margin-top w3-padding-64" style="max-width:1400px;">
+ <h2 class="w3-wide" style="text-align:center;">DESIGN PROCESS</h2>
+ <p class="w3-large w3-panel w3-padding w3-left w3-margin">
+ <b>User research:</b>
+We, as a team, conducted user research by asking some of our colleagues and students at the college to use similar web tools that are used for citing references for academic and research work. Apart from predefined requirements for the project mentioned under challenges section in this article, we made sure that we address the main problem that the users are facing using similar tools, and we want to make sure we solve that problem in our website.
+ </p>
+ <p class="w3-large w3-panel w3-padding w3-left w3-margin">
+ <b>Conceptualization and User flow:</b>
+ From conducting user interviews on the existing research and academic reference tools, we were able to analyse the data and created two personas. One is for a student, and other is for a researcher. After discussing how the two different personas use the website we are about to develop, we came up with a user mental model which helped us develop a rough user flow before we created a paper wireframe.
+</p>
+<p class="w3-large w3-panel w3-padding w3-left w3-margin">
+<b>User Interface design and development :</b><br>
+Due to the tight schedule, we first made a priority that we meet all the requirements of the client. So, first, we created a fully functional prototype of our website and conducted usability testing on one student who seemed to be a better match for both of our personas. We took a brief note during usability testing and analysed the results. We immediately made the required changes to our design, and the usability of our site improved.
+</p>
+</div>
+<div class="w3-content w3-mobile w3-margin-top w3-padding-64" style="max-width:1400px;">
+ <h2 class="w3-wide" style="text-align:center;">HIGH FIDELITY MOCKUP</h2>
+ <p class="w3-large w3-panel w3-padding w3-center w3-margin">
+   <image src="images/BMDesign.png" alt="Design" style="width: 75%; height:auto;">
+  </p>
+</div>
+<div class="w3-content w3-mobile w3-margin-top w3-padding" style="max-width:1400px;">
+ <h2 class="w3-wide" style="text-align:center;">BIBILOGRAPHY MANAGER USABILITY TESTING</h2>
+ <p class="w3-center w3-margin">
+   <video width="500" height="540" controls>
+  <source src="videos/BibilographManager.mp4" type="video/mp4">
+</video>
+ </p>
+</div>
+<div class="w3-bar w3-round  w3-mobile w3-content w3-margin-top w3-padding">
+  <a href="Median_CaseStudy.html" class="w3-button ">&#10094; Previous</a>
+  <a href="Collaborative_CaseStudy.html" class="w3-button w3-right ">Next &#10095;</a>
+</div>
+</html>
